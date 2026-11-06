@@ -104,7 +104,6 @@ Today I do this at **Delipe**, mostly for telecom companies, across sales, finan
 
 **Integrations & AI**
 <p>
-  <img src="https://img.shields.io/badge/Meta%20Ads-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Meta Ads"/>
   <img src="https://img.shields.io/badge/Google%20Ads-4285F4?style=flat-square&logo=googleads&logoColor=white" alt="Google Ads"/>
   <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code"/>
   <img src="https://img.shields.io/badge/MCP-333333?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP"/>
