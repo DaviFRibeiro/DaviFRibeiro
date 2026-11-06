@@ -166,14 +166,14 @@ flowchart LR
 flowchart LR
     A[Request] --> B[Business rule<br/>metric · grain · date]
     B --> C[ETL and warehouse]
-    C --> D[Model]
-    D --> E[Measures]
-    E --> F[Visuals]
-    F --> G{Matches<br/>the source?}
-    G -- yes --> H[Publish]
-    G -. no .-> B
+    C --> D[Model and measures]
+    D --> E[Visuals]
+    E --> F{Matches<br/>the source?}
+    F -- yes --> G[Publish]
+    F -. no .-> H[Trace the gap]
+    H -.-> B
     style B fill:#14262A,stroke:#2DD4BF,color:#E5E7EB
-    style G fill:#242015,stroke:#F2C811,color:#E5E7EB
+    style F fill:#242015,stroke:#F2C811,color:#E5E7EB
 ```
 
 ---
