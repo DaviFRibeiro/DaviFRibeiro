@@ -182,13 +182,11 @@ flowchart LR
 ## Current Focus
 
 <p>
-  <img src="https://img.shields.io/badge/Marketing%20Attribution-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Marketing attribution"/>
   <img src="https://img.shields.io/badge/Field%20Productivity-0F766E?style=flat-square" alt="Field productivity"/>
   <img src="https://img.shields.io/badge/Row--Level%20Security-B8860B?style=flat-square" alt="Row-level security"/>
   <img src="https://img.shields.io/badge/AI%20Agents%20%2B%20MCP-D97757?style=flat-square&logo=claude&logoColor=white" alt="AI agents and MCP"/>
 </p>
 
-Right now: tracing marketing from ad to sale, measuring field productivity by crossing work orders with GPS, row-level security by branch, and AI agents that do real work within clear limits.
 
 ---
 
