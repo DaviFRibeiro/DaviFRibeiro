@@ -162,19 +162,7 @@ flowchart LR
 
 **From request to delivery**
 
-```mermaid
-flowchart LR
-    A[Request] --> B[Business rule<br/>metric · grain · date]
-    B --> C[ETL and warehouse]
-    C --> D[Model and measures]
-    D --> E[Visuals]
-    E --> F{Matches<br/>the source?}
-    F -- yes --> G[Publish]
-    F -. no .-> H[Trace the gap]
-    H -.-> B
-    style B fill:#14262A,stroke:#2DD4BF,color:#E5E7EB
-    style F fill:#242015,stroke:#F2C811,color:#E5E7EB
-```
+**Request → business rule** (metric, grain, date) **→ ETL and warehouse → model and measures → visuals → check against the source → publish.** If the numbers don't match, I trace the gap and go back to the rule.
 
 ---
 
